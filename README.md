@@ -1,5 +1,4 @@
-Simple Calculator App.
+#Overview
+Simple Calculator App. Created with HTML, CSS, JS and React.js. Includes basic mathematical operations like addition, subtraction, multiplication and division.
 
-Includes basic mathematical operations like addition, subtraction, multiplication and division.
 
-Created with React.js and Create-React-App.
