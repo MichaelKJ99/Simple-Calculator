@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main_wrapper{
+    margin: 150px auto;
+    display: flex;
+    align-content: space-between;
+    flex-wrap: wrap;
+    background-color: #aaa;
+    height: 400px;
+    width: 250px;
+    font-family: arial;
+}
+
+.display{
+    flex-basis: 100%;
+    height: 50px;
+    text-align: right;
+    font-size: 20px;
+}
+
+.buttons{
+    display: flex;
+    flex-basis: 100%;
+    height: 330px;
+}
+
+.ciphers{
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 80%;
+}
+
+.operators{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.btn-1, .btn-2, .btn-3,
+.btn-4, .btn-5, .btn-6,
+.btn-7, .btn-8, .btn-9 {
+    flex-basis: calc(100%/3);
+    background-color: rgb(3, 120, 177);
+    color: white
+}
+.btn-0{
+    order: 1;
+    flex-basis: 100%;
+    background-color: rgb(3, 120, 177);
+    color: white;
+}
+
+.btn-1:hover,
+.btn-2:hover,
+.btn-3:hover,
+.btn-4:hover,
+.btn-5:hover,
+.btn-6:hover,
+.btn-7:hover,
+.btn-8:hover,
+.btn-9:hover,
+.btn-0:hover{
+    background-color: rgb(3, 50, 122);
+}
+
+.btn-opr {
+    flex-basis: 50%;
+}
+
+.btn-opr:nth-child(7){
+    order: -1;
+    flex-basis: 100%;
+    background-color: rgb(191,5,0);
+    color: white;
+}
+
+.btn-opr:nth-child(7):hover{
+    background-color: red;
+}
